@@ -7,3 +7,38 @@ body {
   padding: 0;
   background-color: #ffffff;
 }
+
+nav ul {
+  padding: 0;
+}
+
+.color {
+  background-color: red;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-items-container {
+  list-style: none;
+}
+
+.nav-item {
+  padding: 5px 25px;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.align-center {
+  align-items: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+#nav-container {
+  flex-grow: 1;
+}
