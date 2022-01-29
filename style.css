@@ -1,3 +1,7 @@
+:root {
+  --nav-text-color: black;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -8,24 +12,33 @@ body {
   background-color: #ffffff;
 }
 
-nav ul {
+ul {
   padding: 0;
+  margin: 0;
 }
 
 .color {
   background-color: red;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: var(--nav-text-color);
+}
+a.nav-link:visited {
+  color: var(--nav-text-color);
+}
+
 .flex {
   display: flex;
 }
 
-.nav-items-container {
+.list-style-none {
   list-style: none;
 }
 
 .nav-item {
-  padding: 5px 25px;
+  padding: 10px 25px;
 }
 
 .container {
@@ -41,4 +54,25 @@ nav ul {
 
 #nav-container {
   flex-grow: 1;
+}
+
+section {
+  height: 100vh;
+}
+
+.min-width-50 {
+  min-width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-links {
+  margin: 0 auto;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: rgb(226, 232, 240);
 }
