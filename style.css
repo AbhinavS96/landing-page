@@ -136,3 +136,18 @@ footer {
   width: 100%;
   height: auto;
 }
+
+.team-image-container {
+  max-width: 120px;
+  margin: 0 auto;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.team-image-container img {
+  width: 100%;
+}
+
+.team-container {
+  max-width: 25%;
+}
