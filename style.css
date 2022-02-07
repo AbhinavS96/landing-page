@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap");
+
 :root {
   --nav-text-color: white;
   --footer-text-color: black;
@@ -12,6 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 header {
@@ -24,11 +27,6 @@ header {
 ul {
   padding: 0;
   margin: 0;
-}
-
-/* check class */
-.color {
-  background-color: red;
 }
 
 .nav-link {
@@ -64,11 +62,29 @@ a.footer-link:visited {
 }
 
 .nav-item {
-  padding: 10px 25px;
+  padding: 10px 15px;
+}
+
+.nav-item button {
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.nav-item .fab {
+  font-size: 1.2rem;
 }
 
 .container {
   margin: 0 10%;
+}
+
+.hamburger-container {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--nav-text-color);
+  font-size: 1.2rem;
+  display: none;
 }
 
 #nav-container {
@@ -150,4 +166,15 @@ footer {
 
 .team-container {
   max-width: 25%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+  .hamburger-container {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
 }
