@@ -23,39 +23,70 @@
     <!-- header -->
     <header>
       <!-- navigation -->
-      <nav class="flex-standard container">
-        <div class="nav-item">
-          <a class="nav-link" href="#">STARTER KIT</a>
+      <nav class="container">
+        <div class="flex-standard">
+          <div class="nav-item">
+            <a class="nav-link" href="#">STARTER KIT</a>
+          </div>
+          <div id="nav-container" class="flex-standard">
+            <ul class="flex-standard list-style-none hidden">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="far fa-file-alt"></i> DOCS</a
+                >
+              </li>
+            </ul>
+            <ul class="flex-standard list-style-none hidden">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button>
+                    <i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD
+                  </button></a
+                >
+              </li>
+            </ul>
+            <button class="hamburger-container">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
         </div>
-        <div id="nav-container" class="flex-standard">
-          <ul class="flex-standard list-style-none">
-            <li class="nav-item hidden">
+        <div class="mobile-nav hidden">
+          <ul>
+            <li class="nav-item">
               <a class="nav-link" href="#"
                 ><i class="far fa-file-alt"></i> DOCS</a
               >
             </li>
-          </ul>
-          <ul class="flex-standard list-style-none">
-            <li class="nav-item hidden">
-              <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-facebook"></i>Facebook</a
+              >
             </li>
-            <li class="nav-item hidden">
-              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-twitter">Twitter</i></a
+              >
             </li>
-            <li class="nav-item hidden">
-              <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-github">Github</i></a
+              >
             </li>
-            <li class="nav-item hidden">
+            <li class="nav-item">
               <a class="nav-link" href="#"
                 ><button>
                   <i class="fas fa-arrow-alt-circle-down"></i> DOWNLOAD
                 </button></a
               >
-            </li>
-            <li>
-              <button class="hamburger-container">
-                <i class="fas fa-bars"></i>
-              </button>
             </li>
           </ul>
         </div>
