@@ -155,11 +155,17 @@ footer {
   background-color: rgb(226, 232, 240);
 }
 
+.container2 {
+  padding: 0 20px;
+}
+
 .text-container {
   width: 33%;
   padding: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  background-color: white;
+  margin: 10px;
 }
 
 .wrap {
@@ -189,6 +195,14 @@ footer {
   display: none;
 }
 
+#section2 {
+  margin-top: -300px;
+}
+
+#section2 .text-container:nth-of-type(2) {
+  margin-top: -50px;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1024px) {
@@ -203,10 +217,10 @@ footer {
   .mobile-nav ul {
     list-style: none;
   }
-  .nav-link {
+  .nav-link:not(#mainNavItem) {
     color: var(--nav-mobile-color);
   }
-  a.nav-link:visited {
+  a.nav-link:visited:not(#mainNavItem) {
     color: var(--nav-mobile-color);
   }
   .hidden {
