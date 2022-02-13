@@ -152,7 +152,7 @@ section {
 
 footer {
   padding: 10px 0;
-  background-color: rgb(226, 232, 240);
+  background-color: white;
 }
 
 .container2 {
@@ -259,6 +259,10 @@ footer {
   font-weight: 700;
 }
 
+footer .round {
+  background-color: black;
+  text-align: center;
+}
 /* media queries */
 
 @media screen and (max-width: 1024px) {
